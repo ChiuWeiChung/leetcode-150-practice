@@ -43,6 +43,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/valid-palindrome/",
           "completed": false
+        },
+        {
+          "id": 392,
+          "title": "Is Subsequence",
+          "slug": "is-subsequence",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/is-subsequence/",
+          "completed": false
         }
       ]
     },
