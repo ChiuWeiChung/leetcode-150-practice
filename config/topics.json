@@ -1,0 +1,167 @@
+{
+  "topics": [
+    {
+      "id": "array-string",
+      "name": "Array / String",
+      "slug": "array-string",
+      "problems": [
+        {
+          "id": 88,
+          "title": "Merge Sorted Array",
+          "slug": "merge-sorted-array",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/merge-sorted-array/",
+          "completed": false
+        },
+        {
+          "id": 27,
+          "title": "Remove Element",
+          "slug": "remove-element",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/remove-element/",
+          "completed": false
+        },
+        {
+          "id": 26,
+          "title": "Remove Duplicates from Sorted Array",
+          "slug": "remove-duplicates-from-sorted-array",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "two-pointers",
+      "name": "Two Pointers",
+      "slug": "two-pointers",
+      "problems": []
+    },
+    {
+      "id": "sliding-window",
+      "name": "Sliding Window",
+      "slug": "sliding-window",
+      "problems": []
+    },
+    {
+      "id": "matrix",
+      "name": "Matrix",
+      "slug": "matrix",
+      "problems": []
+    },
+    {
+      "id": "hashmap",
+      "name": "Hashmap",
+      "slug": "hashmap",
+      "problems": []
+    },
+    {
+      "id": "intervals",
+      "name": "Intervals",
+      "slug": "intervals",
+      "problems": []
+    },
+    {
+      "id": "stack",
+      "name": "Stack",
+      "slug": "stack",
+      "problems": []
+    },
+    {
+      "id": "linked-list",
+      "name": "Linked List",
+      "slug": "linked-list",
+      "problems": []
+    },
+    {
+      "id": "binary-tree-general",
+      "name": "Binary Tree General",
+      "slug": "binary-tree-general",
+      "problems": []
+    },
+    {
+      "id": "binary-tree-bfs",
+      "name": "Binary Tree BFS",
+      "slug": "binary-tree-bfs",
+      "problems": []
+    },
+    {
+      "id": "binary-search-tree",
+      "name": "Binary Search Tree",
+      "slug": "binary-search-tree",
+      "problems": []
+    },
+    {
+      "id": "graph-general",
+      "name": "Graph General",
+      "slug": "graph-general",
+      "problems": []
+    },
+    {
+      "id": "graph-bfsdfs",
+      "name": "Graph BFS/DFS",
+      "slug": "graph-bfsdfs",
+      "problems": []
+    },
+    {
+      "id": "trie",
+      "name": "Trie",
+      "slug": "trie",
+      "problems": []
+    },
+    {
+      "id": "backtracking",
+      "name": "Backtracking",
+      "slug": "backtracking",
+      "problems": []
+    },
+    {
+      "id": "divide-conquer",
+      "name": "Divide & Conquer",
+      "slug": "divide-conquer",
+      "problems": []
+    },
+    {
+      "id": "kadanes-algorithm",
+      "name": "Kadane's Algorithm",
+      "slug": "kadanes-algorithm",
+      "problems": []
+    },
+    {
+      "id": "binary-search",
+      "name": "Binary Search",
+      "slug": "binary-search",
+      "problems": []
+    },
+    {
+      "id": "heap",
+      "name": "Heap",
+      "slug": "heap",
+      "problems": []
+    },
+    {
+      "id": "bit-manipulation",
+      "name": "Bit Manipulation",
+      "slug": "bit-manipulation",
+      "problems": []
+    },
+    {
+      "id": "1d-dynamic-programming",
+      "name": "1D Dynamic Programming",
+      "slug": "1d-dynamic-programming",
+      "problems": []
+    },
+    {
+      "id": "multidimensional-dp",
+      "name": "Multidimensional DP",
+      "slug": "multidimensional-dp",
+      "problems": []
+    },
+    {
+      "id": "math",
+      "name": "Math",
+      "slug": "math",
+      "problems": []
+    }
+  ]
+}
