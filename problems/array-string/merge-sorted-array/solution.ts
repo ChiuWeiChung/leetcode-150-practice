@@ -32,13 +32,13 @@ function runTests() {
   console.log("Running test cases for: Merge Sorted Array");
 
   // Test case 1
-  const test1 = mergeSortedArray([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3);
+  mergeSortedArray([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3);
 
   // Test case 2
-  const test2 = mergeSortedArray([1], 1, [], 0);
+  mergeSortedArray([1], 1, [], 0);
 
   // Test case 3
-  const test3 = mergeSortedArray([0], 0, [1], 1);
+  mergeSortedArray([0], 0, [1], 1);
 
   // Add more test cases as needed
 }
