@@ -4,33 +4,19 @@
  * LeetCode: https://leetcode.com/problems/remove-element/
  */
 
-function removeElement(nums: number[], val: number): void {
-  // TODO: Implement solution
-  // let i = nums.length-1;
-  const newNums = [...nums] as (number | string)[];
+function removeElement(nums: number[], val: number): number {
+  let i = 0;
+  let j = nums.length - 1;
 
-  newNums.forEach((num, idx, acc) => {
-    if (num === val) acc[idx] = "_";
-  });
-
-  let i = newNums.length - 1;
-  let j = 0;
-  // console.log("Initial newNums:", newNums);
-  while (i !== j) {
-    console.log("i", i, "j", j);
-    if (newNums[j] === "_") {
-      if (newNums[i] !== "_") {
-        [newNums[i], newNums[j]] = [newNums[j], newNums[i]];
-        // console.log("newNums", newNums);
-
-        j++;
-      }
-      i--;
-    }
+  while (i <= j) {
+    if (nums[i] === val) {
+      nums[i] = nums[j];
+      j--;
+    } else i++;
   }
-
-  console.log("newNums", newNums);
-}
+  // 精髓所在，j+1 代表新 news 的長度，因为 j 是最後一個不等於 val 的元素的索引
+  return j + 1;
+};
 
 // Test cases
 function runTests() {
@@ -38,11 +24,11 @@ function runTests() {
 
   // Test case 1
   const test1 = removeElement([3, 2, 2, 3], 3);
-  // console.log("Test 1:", test1);
+  console.log('Test 1:', test1);
 
   // Test case 2
-  // const test2 = removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2);
-  // console.log("Test 2:", test2);
+  const test2 = removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2);
+  console.log('Test 2:', test2);
 
   // Add more test cases as needed
 }
