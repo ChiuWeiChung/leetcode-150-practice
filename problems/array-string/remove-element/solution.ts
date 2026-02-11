@@ -10,23 +10,26 @@ function removeElement(nums: number[], val: number): void {
   const newNums = [...nums] as (number | string)[];
 
   newNums.forEach((num, idx, acc) => {
-    if (num === val) acc[idx] = "-";
+    if (num === val) acc[idx] = "_";
   });
 
   let i = newNums.length - 1;
   let j = 0;
-  while (i >= 0) {
-    console.log("newNums", newNums);
+  // console.log("Initial newNums:", newNums);
+  while (i !== j) {
+    console.log("i", i, "j", j);
     if (newNums[j] === "_") {
       if (newNums[i] !== "_") {
         [newNums[i], newNums[j]] = [newNums[j], newNums[i]];
+        // console.log("newNums", newNums);
+
         j++;
       }
       i--;
     }
   }
 
-  // console.log(newNums);
+  console.log("newNums", newNums);
 }
 
 // Test cases
@@ -35,7 +38,7 @@ function runTests() {
 
   // Test case 1
   const test1 = removeElement([3, 2, 2, 3], 3);
-  console.log("Test 1:", test1);
+  // console.log("Test 1:", test1);
 
   // Test case 2
   // const test2 = removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2);
