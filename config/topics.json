@@ -35,7 +35,16 @@
       "id": "two-pointers",
       "name": "Two Pointers",
       "slug": "two-pointers",
-      "problems": []
+      "problems": [
+        {
+          "id": 125,
+          "title": "Valid Palindrome",
+          "slug": "valid-palindrome",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/valid-palindrome/",
+          "completed": false
+        }
+      ]
     },
     {
       "id": "sliding-window",
