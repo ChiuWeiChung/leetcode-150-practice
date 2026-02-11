@@ -10,10 +10,6 @@ function mergeSortedArray(
   nums2: number[],
   n: number,
 ) {
-  // TODO: Implement solution
-  // const m = nums1.filter((num) => num !== 0).length; // nums1 的有效元素數量
-  // const n = nums2.length;
-
   let i = m - 1; // nums1 的最後一個元素
   let j = n - 1; // nums2 的最後一個元素
   let k = m + n - 1; // 最後陣列（答案）的最後一個元素
@@ -41,6 +37,7 @@ function runTests() {
   // Test case 2
   const test2 = mergeSortedArray([1], 1, [], 0);
 
+  // Test case 3
   const test3 = mergeSortedArray([0], 0, [1], 1);
 
   // Add more test cases as needed
