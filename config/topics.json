@@ -36,6 +36,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/majority-element/",
           "completed": false
+        },
+        {
+          "id": 121,
+          "title": "Best Time to Buy and Sell Stock",
+          "slug": "best-time-to-buy-and-sell-stock",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+          "completed": false
         }
       ]
     },
