@@ -52,6 +52,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/roman-to-integer/",
           "completed": false
+        },
+        {
+          "id": 58,
+          "title": "Length of Last Word",
+          "slug": "length-of-last-word",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/length-of-last-word/",
+          "completed": false
         }
       ]
     },
