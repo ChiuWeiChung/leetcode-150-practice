@@ -28,6 +28,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
           "completed": false
+        },
+        {
+          "id": 169,
+          "title": "Majority Element",
+          "slug": "majority-element",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/majority-element/",
+          "completed": false
         }
       ]
     },
