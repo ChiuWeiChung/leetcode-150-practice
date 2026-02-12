@@ -50,6 +50,14 @@ function runTests() {
   const test2 = majorityElement([2, 2, 1, 1, 1, 2, 2]);
   console.log("Test 2:", test2);
 
+  // Test case 3
+  const test3 = majorityElement([3, 3, 4]);
+  console.log("Test 3:", test3);
+
+  // Test case 4
+  const test4 = majorityElement([6, 5, 5]);
+  console.log("Test 4:", test4);
+
   // Add more test cases as needed
 }
 

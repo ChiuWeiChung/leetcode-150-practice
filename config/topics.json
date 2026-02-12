@@ -44,6 +44,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
           "completed": false
+        },
+        {
+          "id": 13,
+          "title": "Roman to Integer",
+          "slug": "roman-to-integer",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/roman-to-integer/",
+          "completed": false
         }
       ]
     },
