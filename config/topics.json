@@ -60,6 +60,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/length-of-last-word/",
           "completed": false
+        },
+        {
+          "id": 14,
+          "title": "Longest Common Prefix",
+          "slug": "longest-common-prefix",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/longest-common-prefix/",
+          "completed": false
         }
       ]
     },
