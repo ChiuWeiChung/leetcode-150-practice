@@ -150,6 +150,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/valid-anagram/",
           "completed": false
+        },
+        {
+          "id": 1,
+          "title": "Two Sum",
+          "slug": "two-sum",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/two-sum/",
+          "completed": false
         }
       ]
     },
