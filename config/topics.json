@@ -126,6 +126,22 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/ransom-note/",
           "completed": false
+        },
+        {
+          "id": 205,
+          "title": "Isomorphic Strings",
+          "slug": "isomorphic-strings",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/isomorphic-strings/",
+          "completed": false
+        },
+        {
+          "id": 290,
+          "title": "Word Pattern",
+          "slug": "word-pattern",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/word-pattern/",
+          "completed": false
         }
       ]
     },
