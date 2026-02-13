@@ -189,7 +189,16 @@
       "id": "intervals",
       "name": "Intervals",
       "slug": "intervals",
-      "problems": []
+      "problems": [
+        {
+          "id": 228,
+          "title": "Summary Ranges",
+          "slug": "summary-ranges",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/summary-ranges/",
+          "completed": false
+        }
+      ]
     },
     {
       "id": "stack",
