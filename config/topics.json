@@ -166,6 +166,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/happy-number/",
           "completed": false
+        },
+        {
+          "id": 49,
+          "title": "Group Anagrams",
+          "slug": "group-anagrams",
+          "difficulty": "Medium",
+          "leetcodeUrl": "https://leetcode.com/problems/group-anagrams/",
+          "completed": false
         }
       ]
     },
