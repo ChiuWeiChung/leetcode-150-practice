@@ -158,6 +158,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/two-sum/",
           "completed": false
+        },
+        {
+          "id": 202,
+          "title": "Happy Number",
+          "slug": "happy-number",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/happy-number/",
+          "completed": false
         }
       ]
     },
