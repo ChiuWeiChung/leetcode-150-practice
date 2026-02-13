@@ -204,7 +204,16 @@
       "id": "stack",
       "name": "Stack",
       "slug": "stack",
-      "problems": []
+      "problems": [
+        {
+          "id": 20,
+          "title": "Valid Parentheses",
+          "slug": "valid-parentheses",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/valid-parentheses/",
+          "completed": false
+        }
+      ]
     },
     {
       "id": "linked-list",
