@@ -182,6 +182,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/contains-duplicate-ii/",
           "completed": false
+        },
+        {
+          "id": 128,
+          "title": "Longest Consecutive Sequence",
+          "slug": "longest-consecutive-sequence",
+          "difficulty": "Medium",
+          "leetcodeUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "completed": false
         }
       ]
     },
