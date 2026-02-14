@@ -59,8 +59,6 @@ Constraints:
 
 ```ts
 function removeDuplicates(nums: number[]): number {
-  if (nums.length === 0) return 0;
-
   let k = 1; // 下一個唯一值要寫入的位置
 
   for (let i = 1; i < nums.length; i++) {
