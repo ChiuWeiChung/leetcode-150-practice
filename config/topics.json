@@ -250,7 +250,16 @@
       "id": "binary-tree-general",
       "name": "Binary Tree General",
       "slug": "binary-tree-general",
-      "problems": []
+      "problems": [
+        {
+          "id": 104,
+          "title": "Maximum Depth of Binary Tree",
+          "slug": "maximum-depth-of-binary-tree",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "completed": false
+        }
+      ]
     },
     {
       "id": "binary-tree-bfs",
