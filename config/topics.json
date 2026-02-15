@@ -274,6 +274,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
           "completed": false
+        },
+        {
+          "id": 100,
+          "title": "Same Tree",
+          "slug": "same-tree",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/same-tree/",
+          "completed": false
         }
       ]
     },
