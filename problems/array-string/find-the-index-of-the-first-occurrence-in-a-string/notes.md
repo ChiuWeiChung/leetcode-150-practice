@@ -34,7 +34,7 @@ Constraints:
 - `haystack` and `needle` consist of only lowercase English characters.
 
 
-## Solution (O($n^2$))
+## Solution (O(nxm))
 
 ```ts
 function strStr(haystack: string, needle: string): number {
@@ -57,8 +57,15 @@ function strStr(haystack: string, needle: string): number {
 
 現在的寫法其實就是 naive substring search（遇到 mismatch 就把 i 往回拉 j 格再繼續），時間複雜度最壞會到 O(n·m)，例如 haystack = "aaaaaa....a", needle = "aaaab" 那種幾乎每次都比到最後才失敗。
 
+或是可以利用 JS 的 method 來秒殺這題...
+
+```ts
+function strStr(haystack: string, needle: string): number {
+  return haystack.indexOf(needle);
+}
+```
+
 ## 複雜度分析
 
 - **時間複雜度:** O(n x m)
 - **空間複雜度:** O(1)
-
