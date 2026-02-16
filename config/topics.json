@@ -314,6 +314,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/invert-binary-tree/",
           "completed": false
+        },
+        {
+          "id": 101,
+          "title": "Symmetric Tree",
+          "slug": "symmetric-tree",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/symmetric-tree/",
+          "completed": false
         }
       ]
     },
