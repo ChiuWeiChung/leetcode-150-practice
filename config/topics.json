@@ -116,6 +116,14 @@
           "difficulty": "Medium",
           "leetcodeUrl": "https://leetcode.com/problems/jump-game-ii/",
           "completed": false
+        },
+        {
+          "id": 274,
+          "title": "H-Index",
+          "slug": "h-index",
+          "difficulty": "Medium",
+          "leetcodeUrl": "https://leetcode.com/problems/h-index/",
+          "completed": false
         }
       ]
     },
