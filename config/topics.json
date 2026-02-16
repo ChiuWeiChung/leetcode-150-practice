@@ -306,6 +306,14 @@
           "difficulty": "Easy",
           "leetcodeUrl": "https://leetcode.com/problems/same-tree/",
           "completed": false
+        },
+        {
+          "id": 226,
+          "title": "Invert Binary Tree",
+          "slug": "invert-binary-tree",
+          "difficulty": "Easy",
+          "leetcodeUrl": "https://leetcode.com/problems/invert-binary-tree/",
+          "completed": false
         }
       ]
     },
